@@ -1,13 +1,12 @@
 #lib/introduction.rb
-def introduction (name)
+def 
+  introduction(name)
   puts"Hi, my name is #{name}."
 end
-introduction ("Sophie")
-
+introduction("Josh")
 
 #introduction_with_language 
-def greeting_programmer (name, language)
-  puts"Hello, #{name}. We heard you are a great #{language} programmer."
+def introduction_with_language(name, language = "Ruby")
+  puts"Hi, my name is #{name} and I am learning to program in #{language}."
 end
-greeting_programmer ("Sophie","Ruby")
-
+introduction_with_language("Dan","Ember.js")
